@@ -1,0 +1,6 @@
+---
+- name: Install Percona Toolkit package
+  apt:
+    name: percona-toolkit
+    state: present
+    update_cache: yes

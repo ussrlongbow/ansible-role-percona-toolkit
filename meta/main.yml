@@ -1,0 +1,17 @@
+galaxy_info:
+  role_name: percona_toolkit
+  author: Valentin Gostev
+  description: Ansible Role for installing Percona Toolkit package
+  license: MIT
+  min_ansible_version: 1.2
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+        - xenial
+  galaxy_tags:
+    - percona
+    - database
+    - mysql
+dependencies:
+  - ussrlongbow.percona_repo
